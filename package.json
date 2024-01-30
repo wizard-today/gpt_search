@@ -1,0 +1,16 @@
+{
+  "name": "gpt_search",
+  "version": "1.0.0",
+  "description": "Node.js search engine for GPTs",
+  "scripts": {
+    "start": "ts-node start.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.10",
+    "cheerio": "^1.0.0-rc.12",
+    "gpt-tokenizer": "^2.1.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
